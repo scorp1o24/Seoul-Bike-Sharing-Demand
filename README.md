@@ -9,25 +9,44 @@ The dataset is sourced from the UCI Machine Learning Repository and South Korea 
 Features:
 
 bike_count
+
 temp
+
 humidity
+
 wind
+
 visibility
+
 dew_pt_temp
+
 radiation
+
 rain
+
 snow
+
 functional (target variable)
+
+
 Key Steps:
 
 Data Cleaning: Columns like "Date," "Holiday," and "Seasons" were dropped for simplicity.
+
 Data Exploration: Initial data exploration involved visualizing relationships between bike count and individual features.
+
 Linear Regression Models:
+
 Temperature-based Model: Utilized linear regression to predict bike counts based on temperature.
+
 Multiple Regression: Extended the model to include multiple environmental features for more accurate predictions.
+
 Neural Network Models:
+
 Single-parameter Model: Implemented a neural network for predicting bike counts based on temperature.
+
 Multi-parameter Model: Developed a neural network incorporating multiple environmental parameters.
+
 Evaluation: Calculated Mean Squared Error (MSE) for both linear regression and neural network predictions on the test set.
 
 Results:
